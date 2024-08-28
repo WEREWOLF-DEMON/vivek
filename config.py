@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "EsproAiMusicBot")
 BOT_NAME = getenv("BOT_NAME" , "EsproAiMusic")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "EsproAiAssistant")
-EVALOP = list(map(int, getenv("EVALOP", "6329875412  6329875412").split()))
+EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001801976314))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6329875412))
+OWNER_ID = int(getenv("OWNER_ID", 6656608288))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EsproUpdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EsproSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kaalCarder")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SweetToxicSupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
